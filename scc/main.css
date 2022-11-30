@@ -1,0 +1,64 @@
+/* hero */
+
+.hero{
+    background-color: var(--hero-footer-beckground-color);
+}
+
+.hero h1{
+    color: var(--hero-footer-text-color);
+}
+
+.hero button{
+    background-color: var(--accent-color);
+    color: var(--hero-footer-text-color);
+}
+
+/* features */
+
+.features{
+    background-color: var(--features-beckgraund-color);
+}
+
+.features > ul{
+    list-style-type: none;
+}
+
+.features-titel{
+    color: var(--titel-text-color);
+}
+
+.features-text{
+    color: var(--text-color);
+}
+
+/* about */
+
+.about{
+    background: var(--features-beckgraund-color);
+}
+
+.about > ul{
+    list-style-type: none;
+}
+
+.about h2{
+    color: var(--titel-text-color);
+}
+
+/* team */
+
+.team{
+    background-color: var(--team-beckground-color);
+}
+
+.team > ul{
+    list-style-type: none;
+}
+
+.team-titel{
+    color: var(--titel-text-color);
+}
+
+.team-text{
+    color: var(--text-color);
+}
