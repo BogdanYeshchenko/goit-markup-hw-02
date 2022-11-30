@@ -23,9 +23,11 @@
     list-style-type: none;
 }
 
+/* піздніше приберемо .features-titel з допомогою scc
+
 .features-titel{
-    color: var(--titel-text-color);
-}
+    
+} */
 
 .features-text{
     color: var(--text-color);
@@ -41,7 +43,7 @@
     list-style-type: none;
 }
 
-.about h2{
+.about > h2{
     color: var(--titel-text-color);
 }
 
