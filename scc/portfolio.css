@@ -11,6 +11,8 @@
 .working .filters{
     font-family:inherit;
 
+    cursor: pointer;
+
     background-color: var(--team-beckground-color);
     color: var(--titel-text-color);
     font-weight: 500;

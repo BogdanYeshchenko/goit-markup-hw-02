@@ -18,6 +18,7 @@
 .hero button{
     font-family:inherit;
 
+    cursor: pointer;
 
     background-color: var(--accent-color);
     color: var(--hero-footer-text-color);
