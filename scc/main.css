@@ -6,11 +6,22 @@
 
 .hero h1{
     color: var(--hero-footer-text-color);
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero button{
     background-color: var(--accent-color);
     color: var(--hero-footer-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 /* features */
@@ -19,18 +30,31 @@
     background-color: var(--features-beckgraund-color);
 }
 
+.features-titel{
+    color: var(--titel-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
 .features > ul{
     list-style-type: none;
 }
 
-/* піздніше приберемо .features-titel з допомогою scc
+/* піздніше приберемо .features-meaning з допомогою scc
 
-.features-titel{
+.features-meaning{
     
 } */
 
 .features-text{
     color: var(--text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* about */
@@ -45,6 +69,11 @@
 
 .about > h2{
     color: var(--titel-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* team */
@@ -59,8 +88,24 @@
 
 .team-titel{
     color: var(--titel-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-name{
+    color: var(--titel-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .team-text{
     color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }

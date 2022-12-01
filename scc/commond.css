@@ -10,6 +10,9 @@ logo color #000000   #2196F3
 addres text color rgba(255, 255, 255, 0.6)
 */
 
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
 :root{
     --logo-start-color: #2196F3;
     --logo-end-color: #000000;
@@ -24,33 +27,53 @@ addres text color rgba(255, 255, 255, 0.6)
     --addres-text-color: rgba(255, 255, 255, 0.6);
 } 
 
-/* header */
-
-header{
-    background-color: var(--header-beckground-color);
+body{
+    font-family: 'Roboto', sans-serif;
 }
+
+/* logo */
 
 .logo{
     text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .start-logo{
     color:var(--logo-start-color)
 }
+
 header .end-logo{
     color:var(--logo-end-color)
 }
 
-.nav{
+footer .end-logo{
+    color:var(--header-beckground-color)
+}
+
+/* header */
+
+header{
+    background-color: var(--header-beckground-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.navi{
     list-style-type: none;
 }
 
-.nav-link{
+.navi-link{
     text-decoration: none;
     color: var(--titel-text-color);
 }
 
-.nav-link:hover, .nav-link:focus{
+.navi-link:hover, .nav-link:focus{
     color:var(--accent-color)
 }
 
@@ -70,10 +93,6 @@ footer{
     background-color: var(--hero-footer-beckground-color);
 }
 
-footer .end-logo{
-    color:var(--header-beckground-color)
-}
-
 footer ul{
     list-style-type: none;
 }
@@ -84,8 +103,18 @@ footer a{
 
 .footer-address{
     color: var(--hero-footer-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .footer-mail-tel{
     color: var(--addres-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
