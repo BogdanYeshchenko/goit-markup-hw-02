@@ -1,3 +1,11 @@
+/* header*/
+
+.navi-link[href="./portfolio.html"]{
+    color: var(--accent-color);
+}
+
+
+
 /* піздніше приберемо .working > h1 з допомогою scc
 
 .working > h1{

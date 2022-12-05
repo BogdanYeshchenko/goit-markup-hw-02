@@ -1,3 +1,9 @@
+/* header */
+
+.navi-link[href="./index.html"]{
+    color: var(--accent-color);
+}
+
 /* hero */
 
 .hero{

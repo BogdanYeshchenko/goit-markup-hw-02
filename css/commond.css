@@ -93,15 +93,13 @@ footer{
     background-color: var(--hero-footer-beckground-color);
 }
 
-footer ul{
+footer .link{
     list-style-type: none;
 }
 
-footer a{
-    text-decoration: none;
-}
-
 .footer-address{
+    text-decoration: none;
+
     color: var(--hero-footer-text-color);
     font-style: normal;
     font-weight: 400;
@@ -111,10 +109,17 @@ footer a{
 }
 
 .footer-mail-tel{
+    text-decoration: none;
+
     color: var(--addres-text-color);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+
+.footer-address:hover, .footer-address:focus,
+.footer-mail-tel:hover, .footer-mail-tel:focus{
+    color: var(--accent-color);
 }
