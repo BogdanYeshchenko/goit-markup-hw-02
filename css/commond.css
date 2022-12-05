@@ -73,7 +73,7 @@ header{
     color: var(--titel-text-color);
 }
 
-.navi-link:hover, .nav-link:focus{
+.navi-link:hover, .navi-link:focus{
     color:var(--accent-color)
 }
 
